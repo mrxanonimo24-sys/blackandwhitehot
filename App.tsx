@@ -28,7 +28,8 @@ export default function App() {
               Descubra o método exato para gerar renda diária usando modelos criadas por Inteligência Artificial. Sem aparecer, sem estoque e direto no seu PIX.
             </p>
 
-            <motion.button
+            <motion.a
+              href="https://pay.cakto.com.br/wmavexs_823050"
               animate={{ boxShadow: ['0px 0px 20px rgba(220,38,38,0.4)', '0px 0px 45px rgba(220,38,38,0.8)', '0px 0px 20px rgba(220,38,38,0.4)'] }}
               transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
               whileHover={{ scale: 1.05 }}
@@ -36,7 +37,7 @@ export default function App() {
               className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-bold text-lg py-4 px-8 rounded-lg transition-all flex items-center justify-center mx-auto gap-2 uppercase tracking-wide"
             >
               Quero Destravar Meu Acesso <ChevronRight className="w-5 h-5" />
-            </motion.button>
+            </motion.a>
             
             <div className="mt-6 flex items-center justify-center gap-2 text-sm text-gray-400 drop-shadow-sm">
               <Lock className="w-4 h-4" /> Compra 100% Segura e Privada
@@ -168,15 +169,16 @@ export default function App() {
             ))}
           </ul>
 
-          <motion.button
+          <motion.a
+            href="https://pay.cakto.com.br/wmavexs_823050"
             animate={{ boxShadow: ['0px 0px 30px rgba(220,38,38,0.5)', '0px 0px 60px rgba(220,38,38,0.9)', '0px 0px 30px rgba(220,38,38,0.5)'] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-full bg-red-600 hover:bg-red-700 text-white font-black text-xl py-5 px-8 rounded-xl transition-all uppercase tracking-wider"
+            className="w-full block bg-red-600 hover:bg-red-700 text-white font-black text-xl py-5 px-8 rounded-xl transition-all uppercase tracking-wider"
           >
             ADQUIRIR AGORA
-          </motion.button>
+          </motion.a>
 
           <p className="mt-6 text-xs text-red-500/80 font-medium uppercase tracking-widest">
             Atenção: Esta página pode sair do ar a qualquer momento.
